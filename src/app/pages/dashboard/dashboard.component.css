@@ -12,7 +12,11 @@
 
 @media (min-width: 992px) {
     .logo {
-       
         max-height: 180px;
+    }
+}
+@media (max-width: 991px) {
+    .construction-image {
+       margin-top: 7rem;
     }
 }
