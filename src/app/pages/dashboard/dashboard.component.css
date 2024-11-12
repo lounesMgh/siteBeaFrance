@@ -2,21 +2,19 @@
     max-height: 120px;
 }
 
-.content-container {
-    min-height: calc(60vh - 60px);
-}
-
 .construction-image {
     max-height: 320px;
 }
 
 @media (min-width: 992px) {
     .logo {
-        max-height: 180px;
+        max-height: 160px;
     }
 }
+
 @media (max-width: 991px) {
     .construction-image {
-       margin-top: 5rem;
+        margin-top: 5rem;
     }
 }
+
