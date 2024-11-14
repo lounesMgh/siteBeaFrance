@@ -1,0 +1,19 @@
+.logo {
+    max-height: 150px;
+}
+
+.construction-image {
+    max-height: 300px;
+}
+
+@media (min-width: 992px) {
+    .logo {
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 991px) {
+    .construction-image {
+        margin-top: 5rem;
+    }
+}
