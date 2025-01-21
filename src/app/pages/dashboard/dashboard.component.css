@@ -3,9 +3,40 @@
 }
 
 .construction-image {
-    max-height: 300px;
+    max-height: 290px;
 }
-
+.gear-icon {
+    max-height: 70px;
+    animation: rotate360 2s linear infinite;
+}
+.gear-icon-Renverse{
+    max-height: 100px;
+    animation: rotate360Renverse 2s linear infinite;
+}
+.marginPetitReglage{
+    margin-bottom: -6rem;
+    margin-right: 12rem;
+}
+.marginGrandReglage{
+    margin-bottom: -3rem;
+    margin-right: 2rem;
+}
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate360Renverse {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg) ;
+    }
+}
 @media (min-width: 992px) {
     .logo {
         max-height: 200px;
@@ -15,5 +46,21 @@
 @media (max-width: 991px) {
     .construction-image {
         margin-top: 5rem;
+    }
+    .marginPetitReglage{
+        margin-bottom: -10rem;
+        margin-right: 12rem;
+    }
+    .marginGrandReglage{
+        margin-bottom: -7rem;
+        margin-right: 5rem;
+    }
+    .gear-icon {
+        max-height: 50px;
+        animation: rotate360 2s linear infinite;
+    }
+    .gear-icon-Renverse{
+        max-height: 80px;
+        animation: rotate360Renverse 2s linear infinite;
     }
 }
